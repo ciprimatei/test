@@ -5,9 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <title>
-  
-    Introduction &middot; Bootstrap
-  
+  Documentation  
 </title>
 <!-- Bootstrap core CSS -->
 
@@ -23,56 +21,80 @@
 <!-- Favicons -->
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-3">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-folder-close">
+                        </span>Menu1</a>
+                    </h4>
+                  </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                      <table class="table">
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Submenu 1.1</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-flash text-success"></span><a href="http://www.jquery2dotnet.com">Submenu 1.2</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-file text-info"></span><a href="http://www.jquery2dotnet.com">Submenu 1.3</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-comment text-success"></span><a href="http://www.jquery2dotnet.com">Submenu 1.4</a>
+                                  <span class="badge">42</span>
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-folder-close">
+                        </span>Menu2</a>
+                    </h4>
+                  </div>
+              <div id="collapseTwo" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                      <table class="table">
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Submenu 2.1</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-flash text-success"></span><a href="http://www.jquery2dotnet.com">Submenu 2.2</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-file text-info"></span><a href="http://www.jquery2dotnet.com">Submenu 2.3</a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <span class="glyphicon glyphicon-comment text-success"></span><a href="http://www.jquery2dotnet.com">Submenu 2.4</a>
+                                  <span class="badge">42</span>
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-146052-10', 'getbootstrap.com');
-  ga('send', 'pageview');
-</script>
-
-  </head>
-  <body>
-    <div class="bd-toc-item active">
-      <a class="bd-toc-link" href="">
-        Menu1
-      </a>
-
-      <ul class="nav bd-sidenav">
-          <li class="active bd-sidenav-active">
-            <a href="">
-              Submenu 1.1
-            </a>
-          </li>
-          <li class="">
-            <a href="">
-              Submenu 1.2
-            </a>
-          </li>
-          <li class="">
-            <a href="">
-              Submenu 1.3
-            </a>
-          </li>
-      </ul>
-    </div>
-    <div class="bd-toc-item ">
-      <a class="bd-toc-link" href="">
-        Menu2
-      </a>
-      <ul class="nav bd-sidenav">
-          <li class="">
-            <a href="">
-              Submenu 2.1
-            </a>
-          </li>
-          <li class="">
-            <a href="">
-              Submenu 2.2
-            </a>
-        </li>
-      </ul>
-    </div>
-  </body>
+</body>
